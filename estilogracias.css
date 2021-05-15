@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-attachment: fixed;
+	background-image: url(botones/fondopreguntas.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+form{
+	width: 500px;
+	margin: auto;
+	background: rgba(0,0,0,0.5);
+	padding: 15px 25px;
+	box-sizing: border-box;
+	margin-top: 200px;
+	border-radius: 10px;
+}
+
+h1{
+	color: #FFFFFF;
+	text-align: center;
+	margin: 0;
+	font-size: 24px;
+	margin-bottom: 12px;
+}
+
+input,textarea{
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	border: none;
+	font-size: 12px;
+}
+
+textarea{
+	min-height: 120px;
+	max-height: 120px;
+	max-width: 100%;
+	min-width: 100%;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+#send{
+	background: #DC2618;
+	color: white;
+	padding: 10px;
+	font-size: 15px;
+}
+
+#send:hover{
+	cursor: pointer;
+}
+
+@media(max-width: 540PX){
+form{
+width: 100%;
+}
+}
